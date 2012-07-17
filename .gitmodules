@@ -19,3 +19,6 @@
 [submodule "bundle/Parameter-Text-Objects"]
 	path = bundle/Parameter-Text-Objects
 	url = https://github.com/vim-scripts/Parameter-Text-Objects.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
