@@ -220,6 +220,8 @@ set background=dark
 
 " Set color scheme (requires csapprox)
 colorscheme ir_black
+highlight Pmenu ctermbg=darkmagenta gui=bold
+
 " For presentations:
 " colorscheme ironman
 
