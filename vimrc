@@ -247,5 +247,5 @@ set gfn=Monaco:h14
 set tags=tags;/
 nmap <F7> <C-w><C-]><C-w>T
 
-nmap <C-Enter> <C-w><C-]><C-w>T
-
+" ack
+noremap <Leader>a :Ack <cword><cr>
