@@ -154,7 +154,7 @@ let g:secure_modelines_allowed_items = [
 " This configuration was taken from vimcasts.org (episode 1)
 
 " Shortcut to rapidly toggle `set list`
-nmap <F8> :set list! number!<CR>
+nmap <silent> <F8> :set list! number!<CR>
 
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬
@@ -242,4 +242,10 @@ function! <SID>SynStack()
 endfunc
 
 set gfn=Monaco:h14
+
+" ctags
+set tags=tags;/
+nmap <F7> <C-w><C-]><C-w>T
+
+nmap <C-Enter> <C-w><C-]><C-w>T
 
