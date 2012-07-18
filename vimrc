@@ -243,9 +243,13 @@ endfunc
 
 set gfn=Monaco:h14
 
-" ctags
+" Ctags configuration
+" search tags in upper directory
 set tags=tags;/
+" Open first matching tag in a new tab
 nmap <F7> <C-w><C-]><C-w>T
+" Open a list if multiple matches, in a split window
+nnoremap <Leader>c <C-w>g<C-]>
 
 " ack
 noremap <Leader>a :Ack <cword><cr>
