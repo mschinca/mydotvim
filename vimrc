@@ -221,9 +221,11 @@ runtime macros/matchit.vim
 
 " Set colors for dark blackground
 set background=dark
-
+" set 256 colors for console
+set t_Co=256
 " Set color scheme (requires csapprox)
-colorscheme ir_black
+" colorscheme ir_black
+colorscheme jellybeans
 highlight Pmenu ctermbg=darkmagenta gui=bold
 
 " For presentations:
